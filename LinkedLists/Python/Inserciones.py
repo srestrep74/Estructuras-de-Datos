@@ -35,7 +35,7 @@ def append(List, head, data):
     #Creamos el nuevo nodo
     new_node = Node(data)
     #Si la lista es nula
-    if head == Nonen : return
+    if head == None : return
     #Si la lista esta vacia, se insertara el nuevo nodo como primero, es decir, el siguiente de la cabeza
     if head.next == None:
         head.next = new_node
